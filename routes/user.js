@@ -80,7 +80,10 @@ router.get("/logout", function(req, res) {
 
 router.post("/updatePassword", checkUserLogin);
 router.post("/updatePassword", function(req, res) {
+    console.log(req.session.vCodePassword);
+        console.log(req.body.vCode);
     if (!req.session.vCodePassword || req.session.vCodePassword != req.body.vCode){
+
         res.send({ "error": 401, "message": "验证码错误!" });
         return;
     }

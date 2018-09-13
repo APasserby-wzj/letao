@@ -2,7 +2,8 @@
 SQLyog Ultimate v12.09 (64 bit)
 MySQL - 5.5.20-log : Database - letao
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -52,7 +53,7 @@ CREATE TABLE `brand` (
 
 /*Data for the table `brand` */
 
-insert  into `brand`(`id`,`brandName`,`categoryId`,`brandLogo`,`isDelete`,`hot`) values (1,'耐克',1,'/mobile/images/brand1.png',1,1),(2,'阿迪',1,'/mobile/images/brand2.png',1,1),(3,'新百伦',1,'/mobile/images/brand3.png',1,1),(4,'哥伦比亚',1,'/mobile/images/brand4.png',1,0),(5,'匡威',1,'/mobile/images/brand5.png',1,1),(6,'阿萨德1',2,'/mobile/images/brand5.png',1,1),(7,'阿萨德2',2,'/mobile/images/brand5.png',1,1);
+insert  into `brand`(`id`,`brandName`,`categoryId`,`brandLogo`,`isDelete`,`hot`) values (1,'耐克',1,'/mobile/images/brand1.png',1,1),(2,'阿迪',1,'/mobile/images/brand2.png',1,1),(3,'新百伦',1,'/mobile/images/brand3.png',1,1),(4,'哥伦比亚',1,'/mobile/images/brand4.png',1,0),(5,'匡威',1,'/mobile/images/brand5.png',1,1),(6,'阿萨德1',2,'/mobile/images/brand5.png',1,1),(7,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(8,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(9,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(10,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(11,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(12,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(13,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(14,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(15,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(16,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(17,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(18,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(19,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(20,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(21,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(22,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(23,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(24,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(25,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(26,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(27,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(28,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(29,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(30,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(31,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(32,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(33,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(34,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(35,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(36,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(37,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(38,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(39,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(40,'阿萨德2',2,'/mobile/images/brand5.png',1,1),(41,'阿萨德2',2,'/mobile/images/brand5.png',1,1);
 
 /*Table structure for table `cart` */
 
@@ -85,7 +86,7 @@ CREATE TABLE `category` (
 
 /*Data for the table `category` */
 
-insert  into `category`(`id`,`categoryName`,`isDelete`) values (1,'运动馆',1),(2,'女士馆',1),(3,'男士馆',1),(4,'帆布馆',1),(5,'户外管',1);
+insert  into `category`(`id`,`categoryName`,`isDelete`) values (1,'运动馆',1),(2,'女士馆',1),(3,'男士馆',1),(4,'帆布馆',1),(5,'户外管',1),(6,'户外管',1),(7,'户外管',1),(8,'户外管',1),(9,'户外管',1),(10,'户外管',1),(11,'户外管',1),(12,'户外管',1),(13,'户外管',1),(14,'户外管',1),(15,'户外管',1),(16,'户外管',1),(17,'户外管',1),(18,'户外管',1),(19,'户外管',1),(20,'户外管',1);
 
 /*Table structure for table `employee` */
 

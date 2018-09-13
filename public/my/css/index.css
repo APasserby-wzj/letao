@@ -42,6 +42,7 @@
 .product .list li a {
   display: block;
   box-shadow: 0 0 5px #ccc;
+  padding: 5px;
 }
 .product .list li a img {
   width: 100%;
@@ -71,9 +72,10 @@
   display: block;
   width: 80px;
   height: 30px;
-  line-height: 30;
+  line-height: 30px;
   text-align: center;
   background-color: #006699;
   color: #fff;
   font-size: 14px;
+  border-radius: 4px;
 }
