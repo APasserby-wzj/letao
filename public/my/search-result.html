@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="assets/mui/css/iconfont.css"/>
+    <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/search.css"/>
+
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/artTemplate/template-native.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/search-result.js"></script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav my-header">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    <h1 class="mui-title">搜索結果</h1>
+</header>
+<nav class="mui-bar mui-bar-tab my-footer">
+    <a class="mui-tab-item mui-active" href="index.html">
+        <span class="mui-icon mui-icon-home"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="category.html">
+        <span class="mui-icon mui-icon-bars"></span>
+        <span class="mui-tab-label">分类</span>
+    </a>
+    <a class="mui-tab-item" href="cart.html">
+        <span class="mui-icon iconfont icon-gouwuche"></span>
+        <span class="mui-tab-label">购物车</span>
+    </a>
+    <a class="mui-tab-item" href="user.html">
+        <span class="mui-icon mui-icon-person"></span>
+        <span class="mui-tab-label">会员中心</span>
+    </a>
+</nav>
+<div class="mui-content">
+    <div class="mui-row">
+        <div class="mui-col-xs-6 search-bar" id="priceSort">
+            價格&nbsp;<span class="fa fa-angle-down"></span>
+        </div>
+        <div class="mui-col-xs-6">
+            銷量&nbsp;<span class="fa fa-angle-down"></span>
+        </div>
+    </div>
+    <div class="product">
+        <ul class="list mui-clearfix">
+            <li>
+                <a href="javascript:;">
+                    <img src="images/product.jpg" alt=""/>
+                    <span class="name">
+                            adidas阿迪达斯 男式 场下休闲篮球鞋S83700
+                        </span>
+                    <p>
+                        <span>¥560.00</span>
+                        <span>¥888.00</span>
+                    </p>
+                    <button class="buy-now">立即购买</button>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/product.jpg" alt=""/>
+                    <span class="name">
+                            adidas阿迪达斯 男式 场下休闲篮球鞋S83700
+                        </span>
+                    <p>
+                        <span>¥560.00</span>
+                        <span>¥888.00</span>
+                    </p>
+                    <button class="buy-now">立即购买</button>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/product.jpg" alt=""/>
+                    <span class="name">
+                            adidas阿迪达斯 男式 场下休闲篮球鞋S83700
+                        </span>
+                    <p>
+                        <span>¥560.00</span>
+                        <span>¥888.00</span>
+                    </p>
+                    <button class="buy-now">立即购买</button>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/product.jpg" alt=""/>
+                    <span class="name">
+                            adidas阿迪达斯 男式 场下休闲篮球鞋S83700
+                        </span>
+                    <p>
+                        <span>¥560.00</span>
+                        <span>¥888.00</span>
+                    </p>
+                    <button class="buy-now">立即购买</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    //获得slider插件对象
+    var gallery = mui('.mui-slider');
+    gallery.slider({
+        interval:1000//自动轮播周期，若为0则不自动播放，默认为0；
+    });
+    mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+    });
+</script>
+</body>
+</html>

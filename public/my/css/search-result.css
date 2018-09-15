@@ -1,0 +1,10 @@
+.filter {
+  margin: 10px auto 10px auto;
+  width: 94%;
+}
+.filter .mui-col-xs-6 {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  text-align: center;
+}
