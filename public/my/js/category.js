@@ -4,7 +4,7 @@ $(function(){
 		type:'get',
 		url:'/category/queryTopCategory',
 		success:function(result){
-			
+			console.log(result)
 			$('#leftCate').html(template('leftCateTpl',{data:result.rows}))
 
 			if(result.rows.length > 0){

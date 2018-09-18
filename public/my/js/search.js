@@ -26,7 +26,7 @@ $(function(){
 
 		}
 
-		location.href = "search-list.html?key="+keyword;
+		location.href = "search-result.html?key="+keyword;
 
 
 	});
