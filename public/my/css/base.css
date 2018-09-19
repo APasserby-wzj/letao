@@ -67,7 +67,7 @@ ul {
 }
 .product .list li a .name {
   color: #8f8f94;
-  font-size: 14px;
+  display: block;
   text-align: center;
   line-height: 18px;
   height: 44px;

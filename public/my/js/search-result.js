@@ -1,7 +1,9 @@
 /*获取到地址栏中用户输入的关键字*/
 var key = getParamsByUrl(location.href,'key');
 //console.log(key);
+var page = 1;
 
+var html = "";
 $(function(){
 /*根据用户输入的关键字获取搜索结果
 * 1.获取到地址栏中用户输入的关键字
@@ -50,17 +52,22 @@ function getDate(){
 		url: '/product/queryProduct',
 		type: 'get',
 		data:{
-			page: 1,
-			pageSize: 6,
+			page: page++,
+			pageSize: 3,
 			proName:key
 		},
 		success: function(res){
-
-			var html = template('productTpl',res);
-			//console.log(html);
-			$('#productBox').html(html);
-			/*告诉上拉加载组件数据加载完毕*/
-			This.endPullupToRefresh(false);
+			//console.log(res);
+			if(res.data.length > 0){
+				html += template('productTpl',res);
+				//console.log(html);
+				$('#productBox').html(html);
+				console.log(html);
+				/*告诉上拉加载组件数据加载完毕*/
+				This.endPullupToRefresh(false);
+			}else{
+				This.endPullupToRefresh(true);
+			}
 		}
 	});
 }
